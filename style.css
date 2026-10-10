@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/* Kiểu chung cho các container */
+.grid-container {
+    display: grid;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Ví dụ 1 */
+.example1 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* Thiết lập khoảng cách 20px cho cả hàng và cột */
+}
+
+.example1 div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Ví dụ 2 */
+.example2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 10px; /* 30px khoảng cách hàng (row), 10px khoảng cách cột (column) */
+}
+
+.example2 div {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
